@@ -1,32 +1,49 @@
 * { 
-    font-family: 'Roboto', arial, serif; 
+    font-family: 'Merriweather', arial, serif; 
    
 }
+
 body {
-     background-color: #F2F1E8;
+    background-color: #F2F1E8;
+    margin: 0;
+    padding: 0;
+}
+
+#logo {
+    float: left;
+    width: 4%;
+    height: 4%;
+    
+    
 }
 
 nav {
     background-color: #FFFFFF;
-    text-align: center;
+    margin: 0;
+    padding: 0;
+    
     
 }
 
 #header_list {
     list-style-type: none;
     margin: 0;
-    padding: 0;
-    
+    margin-right: 8px;
+    padding: 5px;
+    text-align: center;
 }
+
+
 
 
 li {
     display:inline;
+    text-align: center;
     
 }
 
 li a {
-display: inline;
+display: inline-block;
 color: #2B2F26;
 text-align: center;
 padding: 14px 16px;
