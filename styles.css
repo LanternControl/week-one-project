@@ -11,8 +11,8 @@ body {
 
 #logo {
     float: left;
-    width: 4%;
-    height: 4%;
+    width: 45px;
+    height: 45px;
     
     
 }
@@ -81,4 +81,15 @@ li a:hover:not(.active2) {
 li a:hover:not(.active3) {
     background-color: #CD5D67
         
+}
+
+h1 {
+    text-align: center;
+    
+}
+
+#art {
+    text-align: center;
+    font-weight: 100;
+    
 }
