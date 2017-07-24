@@ -17,11 +17,15 @@ body {
     
 }
 
+
 nav {
     background-color: #FFFFFF;
     margin: 0;
     padding: 0;
-    
+    height: 58px;
+    width: 1039px;
+    position: fixed;
+    top: 0;
     
 }
 
@@ -31,6 +35,7 @@ nav {
     margin-right: 8px;
     padding: 5px;
     text-align: center;
+    
 }
 
 
@@ -92,4 +97,8 @@ h1 {
     text-align: center;
     font-weight: 100;
     
+}
+
+footer {
+    background-color: #968772
 }
