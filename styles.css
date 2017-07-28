@@ -165,7 +165,6 @@ h6 {
 
 #box2{
     position: absolute;
-    
     top: 420px; 
     left: 300px; 
     width: 100%
@@ -177,17 +176,43 @@ span {
     
 }
 
+#side {
+    max-height: 104px;
+    max-width: 20%;
+    
+}
+
 #room {
     color: white;
     position:absolute;
     top: 760px;
-    left: 100px;
+    left: 320px;
+    justify-content: flex-end;
 }
 
 #art {
     text-align: center;
     font-weight: 100;
     
+}
+
+.table_margin {
+    margin-left: 40px;
+}
+
+.aside {
+    display:flex;
+    flex-flow: row-reverse;
+}
+
+table, tr, td {
+    border-collapse: collapse;
+    border: 1px solid black;
+    margin-bottom: 40px;
+}
+
+td {
+    padding: 8px;
 }
 
 footer {
@@ -226,6 +251,8 @@ footer {
 #cactus {
     max-width: 733px;
     max-height: 200px;
+    overflow: hidden;
+    
 }
 
 
