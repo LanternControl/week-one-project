@@ -6,6 +6,7 @@
 body {
     background-color: #F2F1E8;
     margin: 0;
+    margin-top: 110px;
     padding: 0;
 }
 
@@ -14,9 +15,7 @@ body {
     width: 45px;
     height: 45px;
     
-    
 }
-
 
 nav {
     background-color: #FFFFFF;
@@ -26,6 +25,7 @@ nav {
     width: 1039px;
     position: fixed;
     top: 0;
+    
     
 }
 
@@ -93,6 +93,82 @@ h1 {
     
 }
 
+.flex_for_newsletter {
+    display: flex;
+    flex-flow: wrap row;
+    
+    
+}
+
+#img1 {
+    max-height: 250px;
+    max-width: 50%;
+    object-fit: cover;
+    overflow: hidden;
+    padding: 6px;
+  
+}
+
+#img2 {
+    max-height: 250px;
+    max-width: 25%;
+    object-fit: cover;
+    overflow: hidden;
+    padding: 6px;
+    
+}
+
+#img3 {
+    max-height: 250px;
+    max-width: 25%;
+    object-fit: cover;
+    overflow: hidden;
+    padding: 6px;
+  
+}
+
+#img4 {
+    max-height: 150px;
+    max-width: 20%;
+    object-fit: cover;
+    overflow: hidden;
+    padding: 6px;
+  
+}
+
+#img5 {
+    max-height: 150px;
+    max-width: 20%;
+    object-fit: cover;
+    overflow: hidden;
+    padding: 6px;
+  
+}
+
+#img6 {
+    max-height: 150px;
+    max-width: 40%;
+    object-fit: cover;
+    overflow: hidden;
+    padding: 6px;
+  
+}
+
+#img7 {
+    max-height: 150px;
+    max-width: 20%;
+    object-fit: cover;
+    overflow: hidden;
+    padding: 6px;
+  
+}
+h6 {
+    position: absolute;
+}
+span {
+    color: #131511;
+}
+
 #art {
     text-align: center;
     font-weight: 100;
@@ -100,5 +176,6 @@ h1 {
 }
 
 footer {
-    background-color: #968772
+        background-color: #968772;
+        
 }
