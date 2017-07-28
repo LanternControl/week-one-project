@@ -164,9 +164,25 @@ h1 {
 }
 h6 {
     position: absolute;
+    color: #968772;
+    top: 420px; 
+    left: 15px; 
+    width: 100%; 
+    color: #968772;
+}
+
+#box2{
+    position: absolute;
+    
+    top: 420px; 
+    left: 300px; 
+    width: 100%
+    
 }
 span {
-    color: #131511;
+   background: rgba(0, 0, 0, 0.7);
+   padding: 10px; 
+    
 }
 
 #art {
@@ -177,5 +193,66 @@ span {
 
 footer {
         background-color: #968772;
-        
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        left: 0;
+}
+
+
+
+#newsletter-form {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+}
+
+.form_box {
+    position: absolute;
+    background-color: #F2F1E8;
+    margin-top: 200px;
+    width: 60vw;
+    height: 60vh;
+    transition-delay: .15s;
+    overflow: scroll;
+}
+
+.form_box h1,
+.form_box h2 {
+    position: relative;
+    margin: 30px 10px;
+    text-align: center;
+}
+
+.form {
+    position: relative;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.line_one,
+.line_two {
+    border-bottom: 1px solid #968772;
+    border-bottom-width: medium;
+    font-size: 3vh;
+    margin-top: 8vh;
+    padding-bottom: 1vh;
+}
+
+.line_one input,
+.line_two input {
+    font-size: 3vh;
+    padding-left: 2%;
+    width: 75%;
+    outline: none;
+    border: none;
+    background-color: transparent;
+    overflow: auto;
+} 
+
+.submit {
+    position: relative;
+    text-align: center;
+    bottom: -10vh;
+    margin-bottom: 10%;
 }
