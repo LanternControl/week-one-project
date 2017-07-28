@@ -26,7 +26,6 @@ nav {
     position: fixed;
     top: 0;
     
-    
 }
 
 #header_list {
@@ -37,9 +36,6 @@ nav {
     text-align: center;
     
 }
-
-
-
 
 li {
     display:inline;
@@ -58,18 +54,15 @@ padding: 14px 16px;
 li a.active1 {
     background-color: #968772;
 
-    
 }
 
 li a.active2 {
     background-color: #968772;
    
-    
 }
 
 li a.active3 {
     background-color: #968772;
-    
     
 }
 
@@ -96,7 +89,6 @@ h1 {
 .flex_for_newsletter {
     display: flex;
     flex-flow: wrap row;
-    
     
 }
 
@@ -185,6 +177,13 @@ span {
     
 }
 
+#room {
+    color: white;
+    position:absolute;
+    top: 760px;
+    left: 100px;
+}
+
 #art {
     text-align: center;
     font-weight: 100;
@@ -208,6 +207,29 @@ footer {
 
 }
 
+.flex_attempt {
+    display: flex;
+    flex-flow: column wrap;
+    margin-left: 40px;
+}
+
+#bird {
+    max-height: 20%;
+    max-width: 20%;
+    
+}
+
+.background_words {
+    max-width: 100%;
+}
+
+#cactus {
+    max-width: 733px;
+    max-height: 200px;
+}
+
+
+/* Thanks Colin for the help! */
 #newsletter_form {
     display: flex;
     justify-content: center;
