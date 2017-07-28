@@ -193,15 +193,22 @@ span {
 
 footer {
         background-color: #968772;
-        position: absolute;
+        position: fixed;
         right: 0;
         bottom: 0;
+        margin-bottom: 0;
         left: 0;
+        text-align: left;
 }
 
+#background {
+    background-size: cover;
+    max-height: 100%;
+    max-width: 100%;
 
+}
 
-#newsletter-form {
+#newsletter_form {
     display: flex;
     justify-content: center;
     height: 100vh;
